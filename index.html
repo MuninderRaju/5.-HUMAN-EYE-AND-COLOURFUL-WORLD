@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 5: Human Eye and Colourful World - Solutions & Quiz</title>
+  <!-- Google Fonts: Noto Sans Telugu -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- MathJax Configuration -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script id="mathjax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    body, button, input, select, textarea {
+      font-family: 'Noto Sans Telugu', system-ui, -apple-system, sans-serif;
+    }
+    .lang-te { display: none; }
+    .active-te .lang-en { display: none !important; }
+    .active-te .lang-te { display: block !important; }
+    .active-te inline.lang-te, .active-te span.lang-te { display: inline !important; }
+    .answer-content { display: none; }
+    .answer-content.show { display: block; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col justify-between leading-relaxed">
+
+  <!-- Header & Language Switcher -->
+  <header class="bg-blue-800 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-3 md:py-4 flex justify-between items-center gap-2">
+      <div>
+        <h1 class="text-lg md:text-2xl font-bold leading-tight">5. HUMAN EYE AND COLOURFUL WORLD</h1>
+        <p class="text-xs md:text-sm text-blue-200 mt-0.5">Class 10 Physical Science | Abhyasa Deepika Assessment & Quiz</p>
+      </div>
+      <!-- Language Toggle Switch -->
+      <button onclick="toggleLanguage()" class="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-3 py-1.5 md:px-4 md:py-2 rounded-lg shadow transition duration-200 text-xs md:text-sm shrink-0 flex items-center gap-1.5">
+        <span>🌐</span>
+        <span id="langBtnText">Switch to Telugu</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="max-w-4xl mx-auto px-3 md:px-4 py-6 md:py-8 flex-grow w-full">
+
+    <div class="bg-white rounded-xl shadow-md p-4 md:p-6 border border-gray-200 mb-6">
+
+      <!-- SECTION 1: SHORT ANSWER QUESTIONS -->
+      <div class="bg-blue-100 border-l-4 border-blue-800 p-3 rounded mb-6">
+        <h2 class="text-base md:text-lg font-bold text-blue-900">
+          <span class="lang-en">Short Answer Questions</span>
+          <span class="lang-te">స్వల్ప సమాధాన ప్రశ్నలు</span>
+        </h2>
+      </div>
+
+      <div class="space-y-4 mb-8">
+        <!-- Q1 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans1', 'icon1')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">1. I can comfortably read a book but find a difficulty to read the number on a bus parked 5 m away from me. Name the type of defect of vision that I am suffering from. Which type of lens should I use to correct my vision?</span>
+              <span class="lang-te">1. నేను పుస్తకంలోని అక్షరాలను సులభంగా చదవగలను, కానీ 5 మీటర్ల దూరంలో ఉన్న బస్సు నంబరును చదవలేకపోతున్నాను. నేను ఏ రకమైన దృష్టి లోపంతో బాధపడుతున్నాను? దీని నివారణకు ఏ కటకాన్ని వాడాలి?</span>
+            </span>
+            <span id="icon1" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans1" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en space-y-1">
+              <p>• Defect of vision: <strong>Myopia (Nearsightedness)</strong>.</p>
+              <p>• Lens required for correction: <strong>Concave lens</strong> (Biconcave lens).</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>• దృష్టి లోపం: <strong>హ్రస్వదృష్టి (Myopia)</strong>.</p>
+              <p>• సవరణకు ఉపయోగించే కటకం: <strong>ద్వి-పుటాకార కటకం (Concave lens)</strong>.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans2', 'icon2')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">2. If we increase the distance of an object from the eye, what happens to the image distance in the eye?</span>
+              <span class="lang-te">2. కంటి నుండి వస్తువు ఉన్న దూరాన్ని పెంచితే, కంటి లోపలి ప్రతిబింబ దూరంలో ఏమి మార్పు వస్తుంది?</span>
+            </span>
+            <span id="icon2" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans2" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: The image distance in the eye remains constant ($v = 2.5\text{ cm}$, distance between eye lens and retina). The ciliary muscles adjust the focal length of the eye lens to keep the image formed precisely on the retina.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: కంటిలోని ప్రతిబింబ దూరం స్థిరంగా ఉంటుంది ($v = 2.5\text{ cm}$, కంటి కటకానికి, రెటీనాకు మధ్య దూరం). సిలియరీ కండరాలు కంటి కటక నాభ్యాంతరాన్ని సర్దుబాటు చేసి ప్రతిబింబాన్ని ఎల్లప్పుడు రెటీనా పైనే ఏర్పరుస్తాయి.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans3', 'icon3')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">3. We will not be able to see the things clearly when we come out of a darkroom, why?</span>
+              <span class="lang-te">3. చీకటి గది నుండి బయటకు వచ్చినప్పుడు వస్తువులను స్పష్టంగా చూడలేకపోతాము, ఎందుకు?</span>
+            </span>
+            <span id="icon3" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans3" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: In a darkroom, the pupil expands to allow more light. When we step out into bright light, excess light enters the eye initially. It takes a moment for the iris to contract the pupil size and adjust to the bright light.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: చీకటి గదిలో కంటిపాప (Pupil) పెద్దదిగా విచ్చుకుని ఉంటుంది. ఒక్కసారిగా ప్రకాశవంతమైన వెలుతురులోకి వచ్చినప్పుడు అధిక కాంతి కంటిలోకి ప్రవేశిస్తుంది. ఐరిస్ కంటిపాప పరిమాణాన్ని తగ్గించి సరిచేసుకోవడానికి కొంత సమయం పడుతుంది.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans4', 'icon4')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">4. What is the cause for Presbyopia? Name the type of lens used to correct it.</span>
+              <span class="lang-te">4. చత్వారం (Presbyopia) కి గల కారణం ఏమిటి? దీని సవరణకు ఏ కటకాన్ని ఉపయోగిస్తారు?</span>
+            </span>
+            <span id="icon4" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans4" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en space-y-1">
+              <p>• Cause: Gradual weakening of ciliary muscles and diminishing flexibility of the eye lens due to aging.</p>
+              <p>• Lens for Correction: <strong>Bifocal lens</strong>.</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>• కారణం: వయస్సు పైబడటం వల్ల సిలియరీ కండరాలు బలహీనపడటం మరియు కంటి కటక సాగే గుణం తగ్గడం.</p>
+              <p>• సవరణకు కటకం: <strong>ద్వి-నాభ్య కటకం (Bifocal lens)</strong>.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans5', 'icon5')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">5. What happens if ciliary muscles does not function well?</span>
+              <span class="lang-te">5. సిలియరీ కండరాలు సరిగ్గా పనిచేయకపోతే ఏమి జరుగుతుంది?</span>
+            </span>
+            <span id="icon5" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans5" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: The eye lens cannot adjust its focal length according to the distance of the object (loss of accommodation ability). As a result, both near and distant objects may appear blurred.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: కంటి కటకం తన నాభ్యాంతరాన్ని అవసరానికి తగినట్లు మార్చుకోలేదు (సమయోజన క్షమత కోల్పోతుంది). దీనివల్ల దగ్గరి లేదా దూరపు వస్తువులు స్పష్టంగా కనిపించవు.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans6', 'icon6')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">6. Like prism, does the white light disperses through glass slab. Why?</span>
+              <span class="lang-te">6. పట్టకం వలె గాజు పలక గుండా ప్రయాణించేటప్పుడు తెల్లని కాంతి విక్షేపణం చెందుతుందా? ఎందుకు?</span>
+            </span>
+            <span id="icon6" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans6" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: No, white light does not show net dispersion through a rectangular glass slab. The opposite refracting surfaces are parallel, so the dispersion at the first surface is recombined at the second surface, resulting in an emergent white light beam parallel to the incident beam.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: లేదు, గాజు పలక గుండా ప్రయాణించినప్పుడు వర్ణ విక్షేపణం బయటకు కనిపించదు. గాజు పలక యొక్క ఎదురెదురు తలాలు సమాంతరంగా ఉండటం వల్ల మొదటి తలం వద్ద విడిపోయిన రంగులు రెండవ తలం వద్ద తిరిగి కలిసిపోయి తెల్లని కాంతిగానే వెలువడతాయి.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q7 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans7', 'icon7')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">7. Write the precautions, that should be taken, in the experiment, finding the refractive index of a prism.</span>
+              <span class="lang-te">7. పట్టక వక్రీభవన గుణకాన్ని కనుగొనే ప్రయోగంలో పాటించవలసిన జాగ్రత్తలు రాయండి.</span>
+            </span>
+            <span id="icon7" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans7" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-1">
+            <div class="lang-en">
+              <p>1. Pins should be fixed perfectly vertical on the drawing board.</p>
+              <p>2. The distance between the pins should be at least $10\text{ cm}$.</p>
+              <p>3. Angle of incidence should be kept between $30^\circ$ and $60^\circ$.</p>
+            </div>
+            <div class="lang-te">
+              <p>1. గుండుసూదులను డ్రాయింగ్ బోర్డుపై నిలువుగా గుచ్చాలి.</p>
+              <p>2. గుండుసూదుల మధ్య దూరం కనీసం $10\text{ cm}$ ఉండేలా చూడాలి.</p>
+              <p>3. పతన కోణం $30^\circ$ నుండి $60^\circ$ ల మధ్య ఉండేలా ఎంచుకోవాలి.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q8 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans8', 'icon8')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">8. How the rainbow is formed in the sky?</span>
+              <span class="lang-te">8. ఆకాశంలో ఇంద్రధనస్సు ఎలా ఏర్పడుతుంది?</span>
+            </span>
+            <span id="icon8" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans8" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-2">
+            <div class="lang-en">
+              <p>Answer: Rainbow is formed due to the combined effect of refraction, dispersion, and internal reflection of sunlight by tiny spherical raindrops acting as tiny prisms in the atmosphere.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: వాతావరణంలో ఉన్న నీటి చుక్కలు చిన్న పట్టకాల వలె పనిచేస్తాయి. సూర్యకాంతి ఈ నీటి చుక్కలలోకి ప్రవేశించినప్పుడు వక్రీభవనం, వర్ణ విక్షేపణం మరియు సంపూర్ణాంతర పరావర్తనాలకు లోనై ఇంద్రధనస్సు ఏర్పడుతుంది.</p>
+            </div>
+            
+            <!-- SVG Diagram: Rainbow Formation -->
+            <div class="bg-white p-2 rounded-lg border border-gray-300 flex justify-center my-2">
+              <svg viewBox="0 0 400 200" class="w-full max-w-md h-auto">
+                <circle cx="200" cy="100" r="70" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+                <!-- Incident White Ray -->
+                <line x1="50" y1="50" x2="148" y2="50" stroke="#f59e0b" stroke-width="3"/>
+                <text x="50" y="40" fill="#b45309" font-size="12" font-weight="bold">Sunlight (తెల్లని కాంతి)</text>
+                <!-- Refraction and Dispersion Inside Droplet -->
+                <line x1="148" y1="50" x2="260" y2="120" stroke="#ef4444" stroke-width="2"/>
+                <line x1="148" y1="50" x2="250" y2="135" stroke="#7c3aed" stroke-width="2"/>
+                <!-- Internal Reflection -->
+                <line x1="260" y1="120" x2="160" y2="160" stroke="#ef4444" stroke-width="2"/>
+                <line x1="250" y1="135" x2="165" y2="155" stroke="#7c3aed" stroke-width="2"/>
+                <!-- Refraction Out -->
+                <line x1="160" y1="160" x2="80" y2="185" stroke="#ef4444" stroke-width="2"/>
+                <line x1="165" y1="155" x2="95" y2="195" stroke="#7c3aed" stroke-width="2"/>
+                <text x="20" y="180" fill="#dc2626" font-size="12" font-weight="bold">Red (42°)</text>
+                <text x="20" y="198" fill="#6d28d9" font-size="12" font-weight="bold">Violet (40°)</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q9 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans9', 'icon9')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">9. Write the reason for the splitting of white light into seven colours, when it passes through prism.</span>
+              <span class="lang-te">9. పట్టకం గుండా వెళ్లేటప్పుడు తెల్లని కాంతి ఏడు రంగులుగా విడిపోవడానికి కారణం రాయండి.</span>
+            </span>
+            <span id="icon9" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans9" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: White light consists of seven component colours (VIBGYOR), each having a different wavelength. Different wavelengths travel at different speeds in glass, bending through different angles of deviation.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: తెల్లని కాంతి ఏడు రంగుల మిశ్రమం (VIBGYOR). వివిధ రంగుల కాంతి తరంగదైర్ఘ్యాలు వేర్వేరుగా ఉంటాయి. గాజులో ప్రయాణించేటప్పుడు ప్రతీ రంగు వేర్వేరు వేగంతో ప్రయాణించి వేర్వేరు విచలన కోణాలతో వంగుతుంది.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q10 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans10', 'icon10')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">10. Sun appears in red colour during sunrise and sunset. Explain the reason.</span>
+              <span class="lang-te">10. సూర్యోదయం మరియు సూర్యాస్తమయ సమయాల్లో సూర్యుడు ఎరుపు రంగులో కనిపిస్తాడు. వివరించండి.</span>
+            </span>
+            <span id="icon10" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans10" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: During sunrise/sunset, sunlight travels a longer distance through the atmosphere. Shorter wavelengths (blue/violet) scatter away, while longer wavelength light (Red) suffers minimal scattering and directly reaches our eyes.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: సూర్యోదయ, సూర్యాస్తమయ సమయాల్లో సూర్యకాంతి వాతావరణంలో ఎక్కువ దూరం ప్రయాణించాలి. తక్కువ తరంగదైర్ఘ్యం గల నీలి రంగు కాంతి ఎక్కువగా పరిక్షేపణం చెంది చెల్లాచెదురవుతుంది. ఎక్కువ తరంగదైర్ఘ్యం గల ఎరుపు రంగు కాంతి పరిక్షేపణం చెందక నేరుగా మన కంటిని చేరుతుంది.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q11 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans11', 'icon11')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">11. Why sky appears white sometimes on hot days?</span>
+              <span class="lang-te">11. ఎండ రోజుల్లో కొన్నిసార్లు ఆకాశం తెల్లగా ఎందుకు కనిపిస్తుంది?</span>
+            </span>
+            <span id="icon11" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans11" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: On hot days, water vapour and dust particles in the atmosphere become larger than the wavelength of visible light. These larger particles scatter light of all wavelengths almost equally, making the sky appear white.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: వేడి రోజులలో వాతావరణంలోని నీటి ఆవిరి మరియు ధూళి కణాల పరిమాణం కాంతి తరంగదైర్ఘ్యం కంటే పెద్దదిగా ఉంటుంది. ఈ పెద్ద కణాలు అన్ని రంగుల కాంతిని సమానంగా పరిక్షేపణం చేయడం వల్ల ఆకాశం తెల్లగా కనిపిస్తుంది.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q12 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans12', 'icon12')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">12. In which colours the sky is visible to astronauts? Why?</span>
+              <span class="lang-te">12. వ్యోమగాములకు (Astronauts) ఆకాశం ఏ రంగులో కనిపిస్తుంది? ఎందుకు?</span>
+            </span>
+            <span id="icon12" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans12" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: The sky appears <strong>Dark/Black</strong> to astronauts in space because there is no atmosphere to scatter sunlight.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: వ్యోమగాములకు ఆకాశం <strong>నల్లగా (Dark/Black)</strong> కనిపిస్తుంది. ఎందుకంటే అంతరిక్షంలో కాంతిని పరిక్షేపణం చేయడానికి వాతావరణం ఉండదు.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q13 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans13', 'icon13')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">13. Explain the formation of artificial rainbow with an activity.</span>
+              <span class="lang-te">13. కృత్రిమ ఇంద్రధనస్సు ఏర్పడే విధానాన్ని ఒక కృత్యం ద్వారా వివరించండి.</span>
+            </span>
+            <span id="icon13" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="ans13" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-1">
+            <div class="lang-en">
+              <p>• Activity: Place a plane mirror inside a tray filled with water at an angle. Direct sunlight onto the mirror.</p>
+              <p>• Observation: The reflected light falling on a white wall forms a rainbow spectrum due to dispersion by water.</p>
+            </div>
+            <div class="lang-te">
+              <p>• కృత్యం: నీటితో నిండిన ఒక ట్రేలో సమతల దర్పణాన్ని ఒంపుగా ఉంచాలి. దర్పణంపై సూర్యకాంతి పడేలా చూడాలి.</p>
+              <p>• పరిశీలన: దర్పణం నుండి పరావర్తనం చెందిన కాంతి తెల్లని గోడపై పడినప్పుడు ఏడు రంగులతో కూడిన ఇంద్రధనస్సు స్పష్టంగా కనిపిస్తుంది.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 2: ESSAY TYPE QUESTIONS -->
+      <div class="bg-blue-100 border-l-4 border-blue-800 p-3 rounded mb-6">
+        <h2 class="text-base md:text-lg font-bold text-blue-900">
+          <span class="lang-en">Essay Type Questions</span>
+          <span class="lang-te">వ్యాసరూప సమాధాన ప్రశ్నలు</span>
+        </h2>
+      </div>
+
+      <div class="space-y-4 mb-8">
+        <!-- EQ1 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('eans1', 'eicon1')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">1. Observe the eye defect diagram (Hypermetropia / Long-sightedness): (a) Which defect of vision is represented? Give reason. (b) What could be the cause of this defect?</span>
+              <span class="lang-te">1. ఇచ్చిన కంటి లోపం చిత్రాన్ని పరిశీలించండి (దూరదృష్టి): (ఎ) ఇది ఏ దృష్టి లోపాన్ని సూచిస్తుంది? కారణం తెలపండి. (బి) ఈ లోపానికి గల కారణాలు ఏవి?</span>
+            </span>
+            <span id="eicon1" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="eans1" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-2">
+            
+            <!-- SVG Diagram: Hypermetropia & Correction -->
+            <div class="bg-white p-2 rounded-lg border border-gray-300 flex justify-center my-2">
+              <svg viewBox="0 0 400 120" class="w-full max-w-md h-auto">
+                <ellipse cx="280" cy="60" rx="50" ry="45" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+                <path d="M 235 60 Q 240 30 245 60 Q 240 90 235 60 Z" fill="#93c5fd" stroke="#2563eb"/>
+                <line x1="50" y1="60" x2="350" y2="60" stroke="#9ca3af" stroke-dasharray="4"/>
+                <circle cx="100" cy="60" r="4" fill="#3b82f6"/>
+                <text x="90" y="80" fill="#1e40af" font-size="11" font-weight="bold">N (Near Point > 25cm)</text>
+                <!-- Rays converging behind retina -->
+                <line x1="100" y1="60" x2="238" y2="40" stroke="#ef4444" stroke-width="1.5"/>
+                <line x1="100" y1="60" x2="238" y2="80" stroke="#ef4444" stroke-width="1.5"/>
+                <line x1="238" y1="40" x2="340" y2="60" stroke="#ef4444" stroke-width="1.5"/>
+                <line x1="238" y1="80" x2="340" y2="60" stroke="#ef4444" stroke-width="1.5"/>
+                <circle cx="340" cy="60" r="3" fill="#dc2626"/>
+                <text x="310" y="80" fill="#dc2626" font-size="10" font-weight="bold">Image behind Retina</text>
+              </svg>
+            </div>
+
+            <div class="lang-en space-y-1">
+              <p>(a) Defect: <strong>Hypermetropia (Far-sightedness)</strong>. Reason: Rays from near point converge behind the retina.</p>
+              <p>(b) Causes: 1. Focal length of eye lens is too long ($f > 2.27\text{ cm}$). 2. Eye ball is too small.</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>(ఎ) దృష్టి లోపం: <strong>దీర్ఘదృష్టి (Hypermetropia)</strong>. కారణం: దగ్గరి నుండి వచ్చే కాంతి కిరణాలు రెటీనాకు అవతల కేంద్రీకృతమవుతాయి.</p>
+              <p>(బి) కారణాలు: 1. కంటి కటక నాభ్యాంతరం గరిష్ట పరిమితి కంటే ఎక్కువ కావడం ($f > 2.27\text{ cm}$). 2. అక్షిగోళ పరిమాణం చిన్నదిగా ఉండటం.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EQ2 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('eans2', 'eicon2')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">2. A 14-year old student is not able to see clearly the questions written on the blackboard placed at a distance of 5 m from him. (a) Name the defect of vision. (b) Name the lens to correct it.</span>
+              <span class="lang-te">2. 14 సంవత్సరాల విద్యార్థి 5 మీటర్ల దూరంలో ఉన్న బ్లాక్‌బోర్డ్ పై రాసిన ప్రశ్నలను స్పష్టంగా చూడలేకపోతున్నాడు. (ఎ) ఈ దృష్టి లోపం పేరు ఏమిటి? (బి) సవరణకు వాడే కటకం ఏది?</span>
+            </span>
+            <span id="eicon2" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="eans2" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-2">
+            
+            <!-- SVG Diagram: Myopia Correction -->
+            <div class="bg-white p-2 rounded-lg border border-gray-300 flex justify-center my-2">
+              <svg viewBox="0 0 400 120" class="w-full max-w-md h-auto">
+                <ellipse cx="280" cy="60" rx="50" ry="45" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                <path d="M 235 60 Q 240 30 245 60 Q 240 90 235 60 Z" fill="#93c5fd" stroke="#2563eb"/>
+                <!-- Concave Lens -->
+                <path d="M 160 35 Q 165 60 160 85 L 170 85 Q 165 60 170 35 Z" fill="#cbd5e1" stroke="#475569"/>
+                <line x1="20" y1="60" x2="350" y2="60" stroke="#9ca3af" stroke-dasharray="4"/>
+                <!-- Parallel Rays Corrected -->
+                <line x1="30" y1="35" x2="160" y2="35" stroke="#16a34a" stroke-width="1.5"/>
+                <line x1="30" y1="85" x2="160" y2="85" stroke="#16a34a" stroke-width="1.5"/>
+                <line x1="168" y1="38" x2="238" y2="42" stroke="#16a34a" stroke-width="1.5"/>
+                <line x1="168" y1="82" x2="238" y2="78" stroke="#16a34a" stroke-width="1.5"/>
+                <line x1="238" y1="42" x2="330" y2="60" stroke="#16a34a" stroke-width="1.5"/>
+                <line x1="238" y1="78" x2="330" y2="60" stroke="#16a34a" stroke-width="1.5"/>
+                <circle cx="330" cy="60" r="3" fill="#16a34a"/>
+                <text x="270" y="110" fill="#16a34a" font-size="10" font-weight="bold">Image on Retina</text>
+              </svg>
+            </div>
+
+            <div class="lang-en space-y-1">
+              <p>(a) Defect: <strong>Myopia (Nearsightedness)</strong>.</p>
+              <p>(b) Corrective Lens: <strong>Concave lens</strong>.</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>(ఎ) దృష్టి లోపం: <strong>హ్రస్వదృష్టి (Myopia)</strong>.</p>
+              <p>(బి) సవరణ కటకం: <strong>ద్వి-పుటాకార కటకం (Concave lens)</strong>.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EQ3 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('eans3', 'eicon3')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">3. Write the experiment method, to find the refractive index of material of prism.</span>
+              <span class="lang-te">3. పట్టక పదార్థపు వక్రీభవన గుణకాన్ని కనుగొనే ప్రయోగ విధానాన్ని వివరించండి.</span>
+            </span>
+            <span id="eicon3" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="eans3" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-2">
+            <div class="lang-en space-y-1">
+              <p>• Formula: $n = \frac{\sin\left(\frac{A+D}{2}\right)}{\sin\left(\frac{A}{2}\right)}$, where $A = 60^\circ$ (Prism angle), $D$ = Angle of minimum deviation.</p>
+              <p>• Procedure: Fix prism on white chart. Draw boundary. Draw normal and incident ray at angle $i$. Fix two pins $P, Q$. Look from other side and fix $R, S$ inline. Measure deviation angle $d$. Repeat for different $i$ values and plot $i-d$ curve to find minimum deviation $D$.</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>• సూత్రం: $n = \frac{\sin\left(\frac{A+D}{2}\right)}{\sin\left(\frac{A}{2}\right)}$, ఇక్కడ $A = 60^\circ$ (పట్టక కోణం), $D$ = కనిష్ఠ విచలన కోణం.</p>
+              <p>• విధానం: డ్రాయింగ్ బోర్డుపై పట్టకం సరిహద్దులు గీయాలి. లంబం గీసి $i$ పతన కోణంలో కిరణాన్ని గీయాలి. $P, Q$ గుండుసూదులు గుచ్చి, అవతలి వైపు నుండి చూస్తూ $R, S$ లను నాటీ వాటితో సమాంతరంగా గుచ్చాలి. విచలన కోణం $d$ ని కొలవాలి. వివిధ పతన కోణాలకు గ్రాఫ్ గీసి కనిష్ఠ విచలన కోణం $D$ ని కనుగొనాలి.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EQ4 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('eans4', 'eicon4')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">4. Explain the process of formation of rainbow in sky.</span>
+              <span class="lang-te">4. ఆకాశంలో ఇంద్రధనస్సు ఏర్పడే క్రమాన్ని వివరంగా వివరించండి.</span>
+            </span>
+            <span id="eicon4" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="eans4" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-1">
+            <div class="lang-en">
+              <p>1. Refraction and Dispersion at entry into raindrop.</p>
+              <p>2. Total Internal Reflection inside the rear surface of raindrop.</p>
+              <p>3. Refraction at exit into air, forming an angle of $40^\circ$ (Violet) to $42^\circ$ (Red) with incoming sunlight.</p>
+            </div>
+            <div class="lang-te">
+              <p>1. సూర్యకాంతి నీటి చుక్కలోకి ప్రవేశించేటప్పుడు మొదటి స్థానం వద్ద వక్రీభవనం మరియు వర్ణవిక్షేపణం చెందుతుంది.</p>
+              <p>2. నీటి చుక్క లోపలి వెనుక తలం వద్ద సంపూర్ణాంతర పరావర్తనం చెందుతుంది.</p>
+              <p>3. బయటకు వెలువడేటప్పుడు మరల వక్రీభవనం చెంది $40^\circ$ (ఊదా) నుండి $42^\circ$ (ఎరుపు) కోణాల్లో ఇంద్రధనస్సుగా మనకు కనిపిస్తుంది.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EQ5 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('eans5', 'eicon5')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">5. What is the reason for the blue colour appearance of sky? Explain.</span>
+              <span class="lang-te">5. ఆకాశం నీలి రంగులో కనిపిస్తుండటానికి గల కారణాన్ని వివరించండి.</span>
+            </span>
+            <span id="eicon5" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="eans5" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm">
+            <div class="lang-en">
+              <p>Answer: Atmosphere contains fine molecules ($\text{N}_2, \text{O}_2$) smaller than the wavelength of visible light. According to Rayleigh scattering ($I \propto \frac{1}{\lambda^4}$), shorter wavelengths (Blue) scatter much more strongly than longer wavelengths (Red). Hence sky appears blue.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: వాతావరణంలో నైట్రోజన్, ఆక్సిజన్ వంటి అతి సూక్ష్మ అణువులు ఉంటాయి. రాలే పరిక్షేపణ నియమం ప్రకారం తక్కువ తరంగదైర్ఘ్యం కలిగిన నీలి రంగు కాంతి చాలా ఎక్కువగా పరిక్షేపణం చెంది ఆకాశమంతా విస్తరించడం వల్ల ఆకాశం నీలిరంగులో కనిపిస్తుంది.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EQ6 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('eans6', 'eicon6')" class="bg-red-50 hover:bg-red-100 p-3 md:p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-sm md:text-base">
+              <span class="lang-en">6. How will you explain scattering of light with an experiment?</span>
+              <span class="lang-te">6. కాంతి పరిక్షేపణాన్ని (Scattering of light) ఒక ప్రయోగం ద్వారా ఎలా వివరిస్తావు?</span>
+            </span>
+            <span id="eicon6" class="text-red-700 font-bold text-lg md:text-xl ml-2 shrink-0">+</span>
+          </div>
+          <div id="eans6" class="answer-content p-3 md:p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold text-xs md:text-sm space-y-1">
+            <div class="lang-en">
+              <p>• Procedure: Dissolve $200\text{g}$ Sodium thiosulphate (Hypo) in $1\text{L}$ water in a glass beaker. Add $1\text{--}2\text{ml}$ concentrated $\text{H}_2\text{SO}_4$. Pass white light beam through beaker onto a screen.</p>
+              <p>• Observation: Fine sulphur particles precipitate. Beaker looks blue from sides (blue light scattered) and bright orange-red spot appears on screen.</p>
+            </div>
+            <div class="lang-te">
+              <p>• విధానం: బీకరు నీటిలో $200\text{g}$ సోడియం థయోసల్ఫేట్ మరియు $1\text{--}2\text{ml}$ గాఢ సల్ఫ్యూరిక్ ఆమ్లం కలపాలి. తెల్లని కాంతి పుంజాన్ని బీకరు గుండా పంపి తెరపై చూడాలి.</p>
+              <p>• పరిశీలన: సల్ఫర్ కణాలు ఏర్పడుతూ కాంతిని పరిక్షేపణం చేస్తాయి. బీకరు ప్రక్కల నుండి నీలి రంగులో, తెరపై ఎరుపు రంగు మచ్చగా కనిపిస్తుంది.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3: MULTIPLE CHOICE QUESTIONS QUIZ -->
+      <div class="bg-blue-100 border-l-4 border-blue-800 p-3 rounded mb-6 flex justify-between items-center">
+        <h2 class="text-base md:text-lg font-bold text-blue-900">
+          <span class="lang-en">Multiple Choice Questions Quiz</span>
+          <span class="lang-te">బహుళైచ్ఛిక ప్రశ్నల క్విజ్ (MCQs)</span>
+        </h2>
+        <span class="text-xs md:text-sm font-bold text-blue-800 bg-white px-2.5 py-1 rounded-full border border-blue-300">Total: 11 Marks</span>
+      </div>
+
+      <!-- Scoreboard Display -->
+      <div id="scoreBox" class="hidden mb-6 p-4 bg-yellow-50 border-2 border-yellow-400 rounded-xl text-center">
+        <h3 class="text-xl md:text-2xl font-bold text-yellow-800" id="scoreTitle">Your Score: 0 / 11</h3>
+        <p class="text-xs md:text-sm font-bold text-gray-700 mt-1">క్రింద ప్రతీ ప్రశ్నకు సరియైన సమాధానం మరియు విశ్లేషణను చూడండి.</p>
+      </div>
+
+      <form id="quizForm" class="space-y-6">
+
+        <!-- MCQ 1 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q1_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">1. The minimum focal length of the human eye lens is:</span>
+            <span class="lang-te">1. మానవుని కంటి కటకం యొక్క కనిష్ఠ నాభ్యాంతరం ఎంత?</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="A"> A) 2.5 m</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="B"> B) 2.5 cm</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="C"> C) 2.27 cm</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="D"> D) 2.05 cm</label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 2 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q2_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">2. The least distance of distinct vision for an adult with normal vision is about:</span>
+            <span class="lang-te">2. ఆరోగ్యవంతమైన మానవుని స్పష్టదృష్టి కనిష్ఠ దూరం సుమారుగా:</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="A"> A) 25 m</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="B"> B) 2.5 cm</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="C"> C) 25 cm</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="D"> D) 2.5 m</label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 3 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q3_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">3. Name the defect of vision whose near point is more than 25 cm away:</span>
+            <span class="lang-te">3. స్పష్టదృష్టి కనిష్ఠ దూరం 25 cm కంటే ఎక్కువ ఉండే दृष्टि లోపం ఏది?</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="A"> 
+              <span class="lang-en">A) Myopia</span><span class="lang-te">A) హ్రస్వదృష్టి</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="B"> 
+              <span class="lang-en">B) Hypermetropia</span><span class="lang-te">B) దీర్ఘదృష్టి</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="C"> 
+              <span class="lang-en">C) Presbyopia</span><span class="lang-te">C) చత్వారం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="D"> 
+              <span class="lang-en">D) No defect</span><span class="lang-te">D) ఏ లోపం లేదు</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 4 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q4_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">4. Which optical device is useful to read the small letters found in the Dictionary?</span>
+            <span class="lang-te">4. నిఘంటువులోని (Dictionary) చిన్న అక్షరాలను చదవడానికి ఉపయోగపడే సాధనం:</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="A"> 
+              <span class="lang-en">A) Convex lens</span><span class="lang-te">A) కుంభాకార కటకం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="B"> 
+              <span class="lang-en">B) Concave lens</span><span class="lang-te">B) పుటాకార కటకం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="C"> 
+              <span class="lang-en">C) Convex mirror</span><span class="lang-te">C) కుంభాకార దర్పణం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="D"> 
+              <span class="lang-en">D) Concave mirror</span><span class="lang-te">D) పుటాకార దర్పణం</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 5 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q5_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">5. The angle and refractive index of the prism are respectively $60^\circ$ and $1.414$, then the angle of minimum deviation is:</span>
+            <span class="lang-te">5. ఒక పట్టక కోణం $60^\circ$ మరియు వక్రీభవన గుణకం $1.414$ ($\sqrt{2}$) అయితే కనిష్ఠ విచలన కోణం ఎంత?</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="A"> A) $55^\circ$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="B"> B) $45^\circ$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="C"> C) $30^\circ$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="D"> D) $60^\circ$</label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 6 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q6_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">6. Colour of the light which has least wavelength in VIBGYOR is:</span>
+            <span class="lang-te">6. VIBGYOR లో అత్యంత తక్కువ తరంగదైర్ఘ్యం గల కాంతి రంగు:</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="A"> 
+              <span class="lang-en">A) Red</span><span class="lang-te">A) ఎరుపు</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="B"> 
+              <span class="lang-en">B) Blue</span><span class="lang-te">B) నీలం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="C"> 
+              <span class="lang-en">C) Green</span><span class="lang-te">C) ఆకుపచ్చ</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="D"> 
+              <span class="lang-en">D) Violet</span><span class="lang-te">D) ఊదా</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 7 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q7_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">7. Reason for the blue colour of sky is:</span>
+            <span class="lang-te">7. ఆకాశం నీలి రంగులో ఉండటానికి గల కారణం:</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q7" value="A"> 
+              <span class="lang-en">A) Dispersion of light</span><span class="lang-te">A) వర్ణవిక్షేపణం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q7" value="B"> 
+              <span class="lang-en">B) Scattering of light</span><span class="lang-te">B) కాంతి పరిక్షేపణం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q7" value="C"> 
+              <span class="lang-en">C) Refraction of light</span><span class="lang-te">C) వక్రీభవనం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q7" value="D"> 
+              <span class="lang-en">D) Total Internal reflection</span><span class="lang-te">D) సంపూర్ణాంతర పరావర్తనం</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 8 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q8_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">8. In refraction of light the value of ____ does not change:</span>
+            <span class="lang-te">8. కాంతి వక్రీభవనం చెందినప్పుడు మారకుండా స్థిరంగా ఉండే రాశి:</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q8" value="A"> 
+              <span class="lang-en">A) Wavelength</span><span class="lang-te">A) తరంగదైర్ఘ్యం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q8" value="B"> 
+              <span class="lang-en">B) Speed of light</span><span class="lang-te">B) కాంతి వేగం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q8" value="C"> 
+              <span class="lang-en">C) Frequency</span><span class="lang-te">C) పౌనఃపున్యం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q8" value="D"> 
+              <span class="lang-en">D) Intensity</span><span class="lang-te">D) తీవ్రత</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 9 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q9_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">9. The shape of rainbow when observed from aeroplane is:</span>
+            <span class="lang-te">9. విమానం నుండి చూసినప్పుడు ఇంద్రధనస్సు ఆకారం ఎలా ఉంటుంది?</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q9" value="A"> 
+              <span class="lang-en">A) Cone</span><span class="lang-te">A) శంకువు</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q9" value="B"> 
+              <span class="lang-en">B) Circle</span><span class="lang-te">B) సంపూర్ణ వృత్తం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q9" value="C"> 
+              <span class="lang-en">C) Triangle</span><span class="lang-te">C) త్రిభుజం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q9" value="D"> 
+              <span class="lang-en">D) Sphere</span><span class="lang-te">D) గోళం</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 10 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q10_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">10. In the following, the effect of dispersion of light is:</span>
+            <span class="lang-te">10. కింది వాటిలో కాంతి వర్ణవిక్షేపణం వలన సంభవించేది ఏది?</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q10" value="A"> 
+              <span class="lang-en">A) Formation of mirage</span><span class="lang-te">A) ఎండమావులు ఏర్పడటం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q10" value="B"> 
+              <span class="lang-en">B) Blue colour of sky</span><span class="lang-te">B) ఆకాశం నీలి రంగు</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q10" value="C"> 
+              <span class="lang-en">C) Formation of Rainbow</span><span class="lang-te">C) ఇంద్రధనస్సు ఏర్పడటం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q10" value="D"> 
+              <span class="lang-en">D) Twinkling of stars</span><span class="lang-te">D) నక్షత్రాలు మెరవడం</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 11 -->
+        <div class="p-3 md:p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q11_card">
+          <p class="font-bold text-gray-900 mb-3 text-sm md:text-base">
+            <span class="lang-en">11. The red colour will be seen when the angle between a beam of sunlight and light sent back by a drop of rain water is:</span>
+            <span class="lang-te">11. పతన సూర్యకాంతికి మరియు నీటి బొట్టు నుండి బయటకు వచ్చే కాంతికి మధ్య ఏ కోణం ఉన్నప్పుడు ఎరుపు రంగు కనిపిస్తుంది?</span>
+          </p>
+          <div class="space-y-2 font-bold text-xs md:text-sm">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q11" value="A"> A) $30^\circ$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q11" value="B"> B) $40^\circ$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q11" value="C"> C) $42^\circ$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q11" value="D"> D) $90^\circ$</label>
+          </div>
+          <div class="q-feedback mt-3 text-xs md:text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center pt-4">
+          <button type="button" onclick="submitQuiz()" class="bg-blue-700 hover:bg-blue-800 text-white font-bold px-6 py-2.5 md:px-8 md:py-3 rounded-lg shadow-lg text-base md:text-lg transition duration-200">
+            Submit Quiz
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </main>
+
+  <!-- Footer with User Contact Details -->
+  <footer class="bg-gray-900 text-gray-300 py-6 border-t border-gray-800">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <p class="text-sm md:text-base font-bold text-white mb-1">Prepared by: A. Muninder Raju</p>
+      <p class="text-xs md:text-sm">GHM Chincholi B, Dist: Nirmal, Telangana</p>
+      <p class="text-xs text-gray-400 mt-1">
+        Email: <a href="mailto:muninderadluri@gmail.com" class="text-blue-400 hover:underline">muninderadluri@gmail.com</a>
+      </p>
+      <p class="text-xs text-gray-500 mt-3">© 2026 Abhyasa Vedika. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Script for Language Toggle, Accordion, & Evaluation -->
+  <script>
+    function toggleLanguage() {
+      document.body.classList.toggle('active-te');
+      const btnText = document.getElementById('langBtnText');
+      if (document.body.classList.contains('active-te')) {
+        btnText.innerText = 'Switch to English';
+      } else {
+        btnText.innerText = 'Switch to Telugu';
+      }
+
+      if (!document.getElementById('scoreBox').classList.contains('hidden')) {
+        submitQuiz(true);
+      }
+    }
+
+    function toggleAnswer(ansId, iconId) {
+      const ansElem = document.getElementById(ansId);
+      const iconElem = document.getElementById(iconId);
+      
+      if (ansElem.classList.contains('show')) {
+        ansElem.classList.remove('show');
+        iconElem.innerText = '+';
+      } else {
+        ansElem.classList.add('show');
+        iconElem.innerText = '-';
+      }
+    }
+
+    const correctAnswers = {
+      q1: "C",
+      q2: "C",
+      q3: "B",
+      q4: "A",
+      q5: "C",
+      q6: "D",
+      q7: "B",
+      q8: "C",
+      q9: "B",
+      q10: "C",
+      q11: "C"
+    };
+
+    const explanations = {
+      q1: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">The focal length of normal human eye lens varies between maximum $2.5\\text{ cm}$ and minimum $2.27\\text{ cm}$.</p><p class="font-bold">Correct Option: C) 2.27 cm</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">మానవుని కంటి కటక నాభ్యాంతరం గరిష్ఠంగా $2.5\\text{ cm}$ మరియు కనిష్ఠంగా $2.27\\text{ cm}$ ఉంటుంది.</p><p class="font-bold">సరియైన ఎంపిక: C) 2.27 cm</p>`
+      },
+      q2: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">The least distance of distinct vision for a normal human eye is $25\\text{ cm}$.</p><p class="font-bold">Correct Option: C) 25 cm</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">సాధారణ మానవుని స్పష్టదృష్టి కనిష్ఠ దూరం $25\\text{ cm}$.</p><p class="font-bold">సరియైన ఎంపిక: C) 25 cm</p>`
+      },
+      q3: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">In Hypermetropia, the near point shifts beyond $25\\text{ cm}$.</p><p class="font-bold">Correct Option: B) Hypermetropia</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">దీర్ఘదృష్టి లోపంలో స్పష్టదృష్టి కనిష్ఠ దూరం $25\\text{ cm}$ కంటే ఎక్కువకు మారుతుంది.</p><p class="font-bold">సరియైన ఎంపిక: B) దీర్ఘదృష్టి</p>`
+      },
+      q4: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">A convex lens acts as a simple magnifying glass when an object is kept within focus.</p><p class="font-bold">Correct Option: A) Convex lens</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">కుంభాకార కటకం చిన్న అక్షరాలను పెద్దవిగా చూపే నివురు ఆవర్ధనిగా (Magnifier) పనిచేస్తుంది.</p><p class="font-bold">సరియైన ఎంపిక: A) కుంభాకార కటకం</p>`
+      },
+      q5: {
+        en: `<p class="font-bold text-green-800">Solution:</p><p class="font-bold">$n = \\frac{\\sin((A+D)/2)}{\\sin(A/2)} \\implies 1.414 (\\sqrt{2}) = \\frac{\\sin((60+D)/2)}{\\sin(30^\\circ)} = \\frac{\\sin((60+D)/2)}{0.5}$</p><p class="font-bold">$\\sin((60+D)/2) = 0.707 = \\sin(45^\\circ) \\implies (60+D)/2 = 45^\\circ \\implies D = 30^\\circ$.</p><p class="font-bold">Correct Option: C) $30^\\circ$</p>`,
+        te: `<p class="font-bold text-green-800">పరిష్కారం:</p><p class="font-bold">$n = \\frac{\\sin((A+D)/2)}{\\sin(A/2)} \\implies \\sqrt{2} = \\frac{\\sin((60+D)/2)}{0.5} \\implies \\sin((60+D)/2) = \\frac{1}{\\sqrt{2}} = \\sin(45^\\circ)$</p><p class="font-bold">కావున $(60+D)/2 = 45^\\circ \\implies 60+D = 90^\\circ \\implies D = 30^\\circ$.</p><p class="font-bold">సరియైన ఎంపిక: C) $30^\\circ$</p>`
+      },
+      q6: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Violet light has the shortest wavelength ($\approx 400\\text{ nm}$) in VIBGYOR.</p><p class="font-bold">Correct Option: D) Violet</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">VIBGYOR లో ఊదా (Violet) కాంతి అత్యంత తక్కువ తరంగదైర్ఘ్యం కలిగి ఉంటుంది.</p><p class="font-bold">సరియైన ఎంపిక: D) ఊదా</p>`
+      },
+      q7: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Blue colour of the sky is due to Rayleigh scattering of sunlight by atmospheric air molecules.</p><p class="font-bold">Correct Option: B) Scattering of light</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">వాతావరణంలోని అణువుల వల్ల కాంతి పరిక్షేపణం చెందడం మూలంగా ఆకాశం నీలి రంగులో కనిపిస్తుంది.</p><p class="font-bold">సరియైన ఎంపిక: B) కాంతి పరిక్షేపణం</p>`
+      },
+      q8: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Frequency of light depends only on the source, so it remains constant during refraction.</p><p class="font-bold">Correct Option: C) Frequency</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">కాంతి పౌనఃపున్యం జనకంపై మాత్రమే ఆధారపడుతుంది. కావున వక్రీభవనం చెందినప్పుడు పౌనఃపున్యం మారదు.</p><p class="font-bold">సరియైన ఎంపిక: C) పౌనఃపున్యం</p>`
+      },
+      q9: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">From an aeroplane, horizon does not obstruct the lower view, so a full circular rainbow is visible.</p><p class="font-bold">Correct Option: B) Circle</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">విమానం నుండి చూసినప్పుడు భూమి అడ్డురాదు కావున సంపూర్ణ వృత్తాకార ఇంద్రధనస్సు కనిపిస్తుంది.</p><p class="font-bold">సరియైన ఎంపిక: B) సంపూర్ణ వృత్తం</p>`
+      },
+      q10: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Rainbow formation is the direct natural phenomenon of dispersion of sunlight through raindrops.</p><p class="font-bold">Correct Option: C) Formation of Rainbow</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">నీటి చుక్కల గుండా సూర్యకాంతి వర్ణవిక్షేపణం చెందడం వల్ల ఇంద్రధనస్సు ఏర్పడుతుంది.</p><p class="font-bold">సరియైన ఎంపిక: C) ఇంద్రధనస్సు ఏర్పడటం</p>`
+      },
+      q11: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Red light emerges from raindrops making an angle of $42^\circ$ with incident sunlight (Violet emerges at $40^\circ$).</p><p class="font-bold">Correct Option: C) $42^\circ$</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">నీటి బొట్టు నుండి ఎరుపు రంగు కాంతి $42^\circ$ కోణంలో మరియు ఊదా రంగు కాంతి $40^\circ$ కోణంలో బయటకు వస్తాయి.</p><p class="font-bold">సరియైన ఎంపిక: C) $42^\circ$</p>`
+      }
+    };
+
+    function submitQuiz(isLanguageChange = false) {
+      let score = 0;
+      const total = 11;
+      const isTelugu = document.body.classList.contains('active-te');
+
+      for (let i = 1; i <= total; i++) {
+        const qName = 'q' + i;
+        const selected = document.querySelector(`input[name="${qName}"]:checked`);
+        const qCard = document.getElementById(`${qName}_card`);
+        const feedback = qCard.querySelector('.q-feedback');
+        
+        feedback.classList.remove('hidden', 'bg-green-100', 'bg-red-100', 'text-green-900', 'text-red-900');
+        qCard.classList.remove('bg-green-50', 'bg-red-50', 'border-green-400', 'border-red-400');
+
+        const expText = isTelugu ? explanations[qName].te : explanations[qName].en;
+
+        if (selected) {
+          if (selected.value === correctAnswers[qName]) {
+            score++;
+            qCard.classList.add('bg-green-50', 'border-green-400');
+            feedback.classList.add('bg-green-100', 'text-green-900', 'p-3', 'rounded');
+            feedback.innerHTML = `<p class="font-bold text-green-700 mb-1">✓ Correct Answer! (సరియైన సమాధానం)</p>${expText}`;
+          } else {
+            qCard.classList.add('bg-red-50', 'border-red-400');
+            feedback.classList.add('bg-green-100', 'text-green-900', 'p-3', 'rounded');
+            feedback.innerHTML = `<p class="font-bold text-red-600 mb-1">✗ Wrong Answer! (మీరు ఎంచుకున్నది: ${selected.value})</p>${expText}`;
+          }
+        } else {
+          qCard.classList.add('bg-red-50', 'border-red-400');
+          feedback.classList.add('bg-green-100', 'text-green-900', 'p-3', 'rounded');
+          feedback.innerHTML = `<p class="font-bold text-red-600 mb-1">⚠ Not Answered!</p>${expText}`;
+        }
+        feedback.classList.remove('hidden');
+      }
+
+      const scoreBox = document.getElementById('scoreBox');
+      const scoreTitle = document.getElementById('scoreTitle');
+      scoreBox.classList.remove('hidden');
+      scoreTitle.innerText = `Your Score: ${score} / ${total}`;
+      
+      if (window.MathJax) {
+        MathJax.typesetPromise();
+      }
+
+      if (!isLanguageChange) {
+        scoreBox.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+
+</body>
+</html>
